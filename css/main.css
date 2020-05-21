@@ -1,0 +1,53 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  max-width:
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+/*****TABLET*****/
+@media (min-width: 768px) {
+section h1 {
+    color: #02cbd2;
+  }
+
+section h2 {
+    color: #fcc02a;
+  }
+
+section p {
+    color: #7b8f8e;
+  }
+}
+
+/******DESKTOP*****/
+@media (min-width: 1200px) {
+section h1 {
+    color: #6e4b61;
+  }
+
+  section h2 {
+    color: 	#cabd61;
+  }
+
+  section p {
+    color: 	#c19e74;
+  }
+}
